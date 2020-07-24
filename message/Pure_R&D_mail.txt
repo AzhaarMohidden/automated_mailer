@@ -1,0 +1,53 @@
+Dear Sir/Madam,
+
+Please find the attached Resume, Cover Letter and service letter.  
+
+I am an {} Engineer with more than 5 years' of industrial experience. I have handled several major government projects of planning, installation, commissioning and maintenance of monitoring and security systems (CCTV, Access Control(ACS), Networks, Alarm systems, etc.) in addition to security I have also done Building Management Systems (BMS) and smart automation systems.
+
+My skills that are relevant to your needs are as follows
+
+2D/3D CAD/CAM and simulation
+1. Fusion 360(Modeling)
+2. 3DS max
+3. TinkerCAD, Ultimaker Cura(Printing)
+4. SolidWorks
+ 
+Simulations
+1. Multisim
+2. Orcad
+3. Pspice
+4. Proteus
+ 
+Signal Processing and Programming
+1. MATLAB(Face Detection, signal processing,etc)
+2. Python, ArduinoStudio
+3. C, C++
+4. HTML, PHP
+5. Tensorflow(Machine learning), Darknet(Object Detection), OpenCV(Image Processing)
+ 
+Controllers and Microprocessors
+1. Raspberry Pi
+2. Jetson Nano
+3. Arduino
+4. PIC
+5. PLC(For large and industrial automation)
+6. Teensy
+I have extensive experience in undertaking developmental projects and quite capable to handle projects from feasibility stage to commissioning.
+
+Please be kind enough to take a look at my resume. I am confident that I would be able to convince you of my capacity to handle this position efficiently and be a suitable candidate for your reputable company if granted an opportunity for an interview. Hope to hear back from you soon. 
+
+N.B: If you require any further information or clarification, please feel free to contact me at any time.
+
+Status:- Available to Join immediately with Transferable visa and NOC.
+E-mail:- azhaarm9494@gmail.com
+Mobile No:- 33773696 (Mobile & Whats app) --  
+
+
+
+--
+Best Regards,
+
+M. Azhaar Mohideen 
+BEng (Hons) Electrical and Electronics Engineering
+Mobile:- 009733773696
+
