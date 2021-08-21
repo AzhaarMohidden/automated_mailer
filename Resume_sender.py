@@ -10,9 +10,6 @@ password = "scscsgcvcpfastog"
 # CV_available = ['Azhaar_ resume_ELV.docx','Azhaar_resume_ER.docx', 'Azhaar_resume_G.docx', 'Azhaar_resume_R.docx']
 # cover_available = ['Cover_letter_BMS.docx', 'Cover_letter_E.docx','Cover_letter_Electrical&Electronics.docx', 'Cover_letter_Electrical.docx', 'Cover_letter_Electronics.docx','Cover_letter_RD.docx']
 # message_available = ['Pure ELectrical - posted', 'Pure R&D - posted', 'ELV - posted', 'Electrical & Electronics - posted', 'Pure ELectrical - not posted', 'Pure R&D - not posted', 'ELV - not posted', 'Electrical & Electronics - not posted']
-CV_available = fn.list_dir(r'E:\Qatar job\automated\resume')
-cover_available = fn.list_dir(r'E:\Qatar job\automated\cover')
-message_available = fn.list_dir(r'E:\Qatar job\automated\message')
 attachment = ['Azhaar_ resume_ELV.docx', 'cover', 'Biomed_International_Service_letter.pdf', 'Call_Lanka_Telecom_Serviceletter.pdf', 'Terabyte_Tech_service_Letter.pdf']
 context = ssl.create_default_context()
 
@@ -100,7 +97,6 @@ while(1):
     print("cover: " + attachment[1])
     print("message: " + message_t)
     print("Email Sent to: " + rec_email)
-    ws.write_mail(rec_email, attachment[0], attachment[1],  message_t, position, ad_url)
     os.system("pause")
     if (mode_sel== "save"):
         print("details saved to excel. please schedule send.. Later")
