@@ -1,5 +1,6 @@
 import smtplib, ssl
 import os
+import sys
 from email.message import EmailMessage
 import Filename as fn
 import write_sheet as ws
@@ -82,9 +83,10 @@ def msg_send(msg):
     print("email sent...")
     return message
 
-
-
-
+try:
+    mode_sel = sys.argv[1] # not send mail "save"
+except:
+    mode_sel = ""
 
 while(1):
     rec_email = str(input("please enter reciever email: "))
@@ -100,4 +102,7 @@ while(1):
     print("Email Sent to: " + rec_email)
     ws.write_mail(rec_email, attachment[0], attachment[1],  message_t, position, ad_url)
     os.system("pause")
-    # msg_send(message_t)
+    if (mode_sel== "save"):
+        print("details saved to excel. please schedule send.. Later")
+    else:
+        msg_send(message_t)
